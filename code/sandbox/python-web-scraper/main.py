@@ -6,4 +6,5 @@ page = requests.get(URL)
 
 soup = BeautifulSoup(page.content, "html.parser")
 results = soup.find(id="Matches")
-print(results.prettify())
+
+# print(results.prettify())
